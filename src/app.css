@@ -1,3 +1,14 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+body {
+	background: #000;
+}
+
+.main-header h1 {
+	text-align: center;
+	padding: 20px;
+	font-size: 20px;
+	color: #fff;
+}
